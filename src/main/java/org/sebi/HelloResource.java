@@ -21,7 +21,7 @@ public class HelloResource {
     @Produces(MediaType.TEXT_PLAIN)
     public String hello() {
         count++;
-        return greeting + " Devoxx France ! from " + hostname + " " + count ;
+        return greeting + " Devoxx France ! from " + hostname + " " + count + "\n";
     }
 
 }
